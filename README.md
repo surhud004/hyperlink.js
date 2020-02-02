@@ -31,3 +31,7 @@ url: 'js/hyperscript.php',
 ```
 ### Use `<a href="link">` tags and check the hover effect
 #### Note: This library is not tested on all web hrefs but works on popular ones like Twitter, YouTube.
+
+## Screenshots
+![alt text](https://github.com/surhud004/hyperlink.js/blob/master/Screenshot1.png)
+![alt text](https://github.com/surhud004/hyperlink.js/blob/master/Screenshot2.png)
