@@ -1,0 +1,47 @@
+/* Styles are similar to bootstrap.css */
+/*
+ * Bootstrap v4.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+*/
+.tooltipcard {
+  position: absolute;
+  z-index: 1; /* positions card in front of the actual body*/
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 18rem;
+  word-wrap: break-word; /* how to split word at end of line*/
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.tooltipcard-image {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.tooltipcard-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.tooltipcard-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+}
+
+.tooltipcard-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; /* replace paragraph with ellipsis and hide rest*/
+}
